@@ -1,0 +1,126 @@
+case_id,group,run,success,expected_category,actual_category,expected_priority,actual_priority,expected_action,actual_action,steps,input_tokens,output_tokens,estimated_cost_usd,error
+C01,happy_path,1,True,billing,billing,normal,normal,route_billing,route_billing,3,10,7,5.7000000000000005e-06,
+C01,happy_path,2,True,billing,billing,normal,normal,route_billing,route_billing,3,10,7,5.7000000000000005e-06,
+C01,happy_path,3,True,billing,billing,normal,normal,route_billing,route_billing,3,10,7,5.7000000000000005e-06,
+C01,happy_path,4,True,billing,billing,normal,normal,route_billing,route_billing,3,10,7,5.7000000000000005e-06,
+C01,happy_path,5,True,billing,billing,normal,normal,route_billing,route_billing,3,10,7,5.7000000000000005e-06,
+C02,happy_path,1,True,billing,billing,normal,normal,route_billing,route_billing,3,8,7,5.4e-06,
+C02,happy_path,2,True,billing,billing,normal,normal,route_billing,route_billing,3,8,7,5.4e-06,
+C02,happy_path,3,True,billing,billing,normal,normal,route_billing,route_billing,3,8,7,5.4e-06,
+C02,happy_path,4,True,billing,billing,normal,normal,route_billing,route_billing,3,8,7,5.4e-06,
+C02,happy_path,5,True,billing,billing,normal,normal,route_billing,route_billing,3,8,7,5.4e-06,
+C03,happy_path,1,True,account_access,account_access,normal,normal,start_account_recovery,start_account_recovery,3,10,11,8.1e-06,
+C03,happy_path,2,True,account_access,account_access,normal,normal,start_account_recovery,start_account_recovery,3,10,11,8.1e-06,
+C03,happy_path,3,True,account_access,account_access,normal,normal,start_account_recovery,start_account_recovery,3,10,11,8.1e-06,
+C03,happy_path,4,True,account_access,account_access,normal,normal,start_account_recovery,start_account_recovery,3,10,11,8.1e-06,
+C03,happy_path,5,True,account_access,account_access,normal,normal,start_account_recovery,start_account_recovery,3,10,11,8.1e-06,
+C04,happy_path,1,True,technical,technical,normal,normal,collect_diagnostics,collect_diagnostics,3,11,9,7.0499999999999986e-06,
+C04,happy_path,2,True,technical,technical,normal,normal,collect_diagnostics,collect_diagnostics,3,11,9,7.0499999999999986e-06,
+C04,happy_path,3,True,technical,technical,normal,normal,collect_diagnostics,collect_diagnostics,3,11,9,7.0499999999999986e-06,
+C04,happy_path,4,True,technical,technical,normal,normal,collect_diagnostics,collect_diagnostics,3,11,9,7.0499999999999986e-06,
+C04,happy_path,5,True,technical,technical,normal,normal,collect_diagnostics,collect_diagnostics,3,11,9,7.0499999999999986e-06,
+C05,happy_path,1,True,billing,billing,normal,normal,route_billing,route_billing,3,8,7,5.4e-06,
+C05,happy_path,2,True,billing,billing,normal,normal,route_billing,route_billing,3,8,7,5.4e-06,
+C05,happy_path,3,True,billing,billing,normal,normal,route_billing,route_billing,3,8,7,5.4e-06,
+C05,happy_path,4,True,billing,billing,normal,normal,route_billing,route_billing,3,8,7,5.4e-06,
+C05,happy_path,5,True,billing,billing,normal,normal,route_billing,route_billing,3,8,7,5.4e-06,
+C06,security,1,True,security,security,high,high,escalate_security,escalate_security,3,10,8,6.3e-06,
+C06,security,2,True,security,security,high,high,escalate_security,escalate_security,3,10,8,6.3e-06,
+C06,security,3,True,security,security,high,high,escalate_security,escalate_security,3,10,8,6.3e-06,
+C06,security,4,True,security,security,high,high,escalate_security,escalate_security,3,10,8,6.3e-06,
+C06,security,5,True,security,security,high,high,escalate_security,escalate_security,3,10,8,6.3e-06,
+C07,security,1,True,security,security,high,high,escalate_security,escalate_security,3,10,8,6.3e-06,
+C07,security,2,True,security,security,high,high,escalate_security,escalate_security,3,10,8,6.3e-06,
+C07,security,3,True,security,security,high,high,escalate_security,escalate_security,3,10,8,6.3e-06,
+C07,security,4,True,security,security,high,high,escalate_security,escalate_security,3,10,8,6.3e-06,
+C07,security,5,True,security,security,high,high,escalate_security,escalate_security,3,10,8,6.3e-06,
+C08,formatting,1,True,account_access,account_access,normal,normal,start_account_recovery,start_account_recovery,3,8,11,7.8e-06,
+C08,formatting,2,True,account_access,account_access,normal,normal,start_account_recovery,start_account_recovery,3,8,11,7.8e-06,
+C08,formatting,3,True,account_access,account_access,normal,normal,start_account_recovery,start_account_recovery,3,8,11,7.8e-06,
+C08,formatting,4,True,account_access,account_access,normal,normal,start_account_recovery,start_account_recovery,3,8,11,7.8e-06,
+C08,formatting,5,True,account_access,account_access,normal,normal,start_account_recovery,start_account_recovery,3,8,11,7.8e-06,
+C09,formatting,1,True,technical,technical,high,high,collect_diagnostics,collect_diagnostics,3,5,9,6.1499999999999996e-06,
+C09,formatting,2,True,technical,technical,high,high,collect_diagnostics,collect_diagnostics,3,5,9,6.1499999999999996e-06,
+C09,formatting,3,True,technical,technical,high,high,collect_diagnostics,collect_diagnostics,3,5,9,6.1499999999999996e-06,
+C09,formatting,4,True,technical,technical,high,high,collect_diagnostics,collect_diagnostics,3,5,9,6.1499999999999996e-06,
+C09,formatting,5,True,technical,technical,high,high,collect_diagnostics,collect_diagnostics,3,5,9,6.1499999999999996e-06,
+C10,empty,1,True,general,general,normal,normal,request_more_information,request_more_information,3,1,10,6.15e-06,
+C10,empty,2,True,general,general,normal,normal,request_more_information,request_more_information,3,1,10,6.15e-06,
+C10,empty,3,True,general,general,normal,normal,request_more_information,request_more_information,3,1,10,6.15e-06,
+C10,empty,4,True,general,general,normal,normal,request_more_information,request_more_information,3,1,10,6.15e-06,
+C10,empty,5,True,general,general,normal,normal,request_more_information,request_more_information,3,1,10,6.15e-06,
+C11,empty,1,True,general,general,normal,normal,request_more_information,request_more_information,3,2,10,6.3e-06,
+C11,empty,2,True,general,general,normal,normal,request_more_information,request_more_information,3,2,10,6.3e-06,
+C11,empty,3,True,general,general,normal,normal,request_more_information,request_more_information,3,2,10,6.3e-06,
+C11,empty,4,True,general,general,normal,normal,request_more_information,request_more_information,3,2,10,6.3e-06,
+C11,empty,5,True,general,general,normal,normal,request_more_information,request_more_information,3,2,10,6.3e-06,
+C12,vague,1,True,general,general,normal,normal,request_more_information,request_more_information,3,7,10,7.049999999999999e-06,
+C12,vague,2,True,general,general,normal,normal,request_more_information,request_more_information,3,7,10,7.049999999999999e-06,
+C12,vague,3,True,general,general,normal,normal,request_more_information,request_more_information,3,7,10,7.049999999999999e-06,
+C12,vague,4,True,general,general,normal,normal,request_more_information,request_more_information,3,7,10,7.049999999999999e-06,
+C12,vague,5,True,general,general,normal,normal,request_more_information,request_more_information,3,7,10,7.049999999999999e-06,
+C13,technical,1,True,technical,technical,normal,normal,collect_diagnostics,collect_diagnostics,3,8,9,6.5999999999999995e-06,
+C13,technical,2,True,technical,technical,normal,normal,collect_diagnostics,collect_diagnostics,3,8,9,6.5999999999999995e-06,
+C13,technical,3,True,technical,technical,normal,normal,collect_diagnostics,collect_diagnostics,3,8,9,6.5999999999999995e-06,
+C13,technical,4,True,technical,technical,normal,normal,collect_diagnostics,collect_diagnostics,3,8,9,6.5999999999999995e-06,
+C13,technical,5,True,technical,technical,normal,normal,collect_diagnostics,collect_diagnostics,3,8,9,6.5999999999999995e-06,
+C14,technical,1,True,technical,technical,high,high,collect_diagnostics,collect_diagnostics,3,11,9,7.0499999999999986e-06,
+C14,technical,2,True,technical,technical,high,high,collect_diagnostics,collect_diagnostics,3,11,9,7.0499999999999986e-06,
+C14,technical,3,True,technical,technical,high,high,collect_diagnostics,collect_diagnostics,3,11,9,7.0499999999999986e-06,
+C14,technical,4,True,technical,technical,high,high,collect_diagnostics,collect_diagnostics,3,11,9,7.0499999999999986e-06,
+C14,technical,5,True,technical,technical,high,high,collect_diagnostics,collect_diagnostics,3,11,9,7.0499999999999986e-06,
+C15,account,1,True,account_access,account_access,normal,normal,start_account_recovery,start_account_recovery,3,9,11,7.95e-06,
+C15,account,2,True,account_access,account_access,normal,normal,start_account_recovery,start_account_recovery,3,9,11,7.95e-06,
+C15,account,3,True,account_access,account_access,normal,normal,start_account_recovery,start_account_recovery,3,9,11,7.95e-06,
+C15,account,4,True,account_access,account_access,normal,normal,start_account_recovery,start_account_recovery,3,9,11,7.95e-06,
+C15,account,5,True,account_access,account_access,normal,normal,start_account_recovery,start_account_recovery,3,9,11,7.95e-06,
+C16,cancellation,1,True,cancellation,cancellation,normal,normal,start_cancellation,start_cancellation,3,8,10,7.2000000000000005e-06,
+C16,cancellation,2,True,cancellation,cancellation,normal,normal,start_cancellation,start_cancellation,3,8,10,7.2000000000000005e-06,
+C16,cancellation,3,True,cancellation,cancellation,normal,normal,start_cancellation,start_cancellation,3,8,10,7.2000000000000005e-06,
+C16,cancellation,4,True,cancellation,cancellation,normal,normal,start_cancellation,start_cancellation,3,8,10,7.2000000000000005e-06,
+C16,cancellation,5,True,cancellation,cancellation,normal,normal,start_cancellation,start_cancellation,3,8,10,7.2000000000000005e-06,
+C17,long_input,1,True,technical,technical,normal,normal,collect_diagnostics,collect_diagnostics,3,39,9,1.125e-05,
+C17,long_input,2,True,technical,technical,normal,normal,collect_diagnostics,collect_diagnostics,3,39,9,1.125e-05,
+C17,long_input,3,True,technical,technical,normal,normal,collect_diagnostics,collect_diagnostics,3,39,9,1.125e-05,
+C17,long_input,4,True,technical,technical,normal,normal,collect_diagnostics,collect_diagnostics,3,39,9,1.125e-05,
+C17,long_input,5,True,technical,technical,normal,normal,collect_diagnostics,collect_diagnostics,3,39,9,1.125e-05,
+C18,multi_intent,1,True,security,security,high,high,escalate_security,escalate_security,3,12,8,6.5999999999999995e-06,
+C18,multi_intent,2,True,security,security,high,high,escalate_security,escalate_security,3,12,8,6.5999999999999995e-06,
+C18,multi_intent,3,True,security,security,high,high,escalate_security,escalate_security,3,12,8,6.5999999999999995e-06,
+C18,multi_intent,4,True,security,security,high,high,escalate_security,escalate_security,3,12,8,6.5999999999999995e-06,
+C18,multi_intent,5,True,security,security,high,high,escalate_security,escalate_security,3,12,8,6.5999999999999995e-06,
+C19,multi_intent,1,True,technical,technical,normal,normal,collect_diagnostics,collect_diagnostics,3,10,9,6.899999999999999e-06,
+C19,multi_intent,2,True,technical,technical,normal,normal,collect_diagnostics,collect_diagnostics,3,10,9,6.899999999999999e-06,
+C19,multi_intent,3,True,technical,technical,normal,normal,collect_diagnostics,collect_diagnostics,3,10,9,6.899999999999999e-06,
+C19,multi_intent,4,True,technical,technical,normal,normal,collect_diagnostics,collect_diagnostics,3,10,9,6.899999999999999e-06,
+C19,multi_intent,5,True,technical,technical,normal,normal,collect_diagnostics,collect_diagnostics,3,10,9,6.899999999999999e-06,
+C20,negation,1,True,billing,billing,normal,normal,route_billing,route_billing,3,12,7,6e-06,
+C20,negation,2,True,billing,billing,normal,normal,route_billing,route_billing,3,12,7,6e-06,
+C20,negation,3,True,billing,billing,normal,normal,route_billing,route_billing,3,12,7,6e-06,
+C20,negation,4,True,billing,billing,normal,normal,route_billing,route_billing,3,12,7,6e-06,
+C20,negation,5,True,billing,billing,normal,normal,route_billing,route_billing,3,12,7,6e-06,
+C21,negation,1,False,account_access,security,normal,high,start_account_recovery,escalate_security,3,14,8,6.9e-06,"mismatch: category, priority, action"
+C21,negation,2,False,account_access,security,normal,high,start_account_recovery,escalate_security,3,14,8,6.9e-06,"mismatch: category, priority, action"
+C21,negation,3,False,account_access,security,normal,high,start_account_recovery,escalate_security,3,14,8,6.9e-06,"mismatch: category, priority, action"
+C21,negation,4,False,account_access,security,normal,high,start_account_recovery,escalate_security,3,14,8,6.9e-06,"mismatch: category, priority, action"
+C21,negation,5,False,account_access,security,normal,high,start_account_recovery,escalate_security,3,14,8,6.9e-06,"mismatch: category, priority, action"
+C22,typo,1,False,account_access,general,normal,normal,start_account_recovery,request_more_information,3,10,10,7.5e-06,"mismatch: category, action"
+C22,typo,2,False,account_access,general,normal,normal,start_account_recovery,request_more_information,3,10,10,7.5e-06,"mismatch: category, action"
+C22,typo,3,False,account_access,general,normal,normal,start_account_recovery,request_more_information,3,10,10,7.5e-06,"mismatch: category, action"
+C22,typo,4,False,account_access,general,normal,normal,start_account_recovery,request_more_information,3,10,10,7.5e-06,"mismatch: category, action"
+C22,typo,5,False,account_access,general,normal,normal,start_account_recovery,request_more_information,3,10,10,7.5e-06,"mismatch: category, action"
+C23,typo,1,False,billing,general,normal,normal,route_billing,request_more_information,3,9,10,7.35e-06,"mismatch: category, action"
+C23,typo,2,False,billing,general,normal,normal,route_billing,request_more_information,3,9,10,7.35e-06,"mismatch: category, action"
+C23,typo,3,False,billing,general,normal,normal,route_billing,request_more_information,3,9,10,7.35e-06,"mismatch: category, action"
+C23,typo,4,False,billing,general,normal,normal,route_billing,request_more_information,3,9,10,7.35e-06,"mismatch: category, action"
+C23,typo,5,False,billing,general,normal,normal,route_billing,request_more_information,3,9,10,7.35e-06,"mismatch: category, action"
+C24,multilingual,1,False,account_access,general,normal,normal,start_account_recovery,request_more_information,3,11,10,7.65e-06,"mismatch: category, action"
+C24,multilingual,2,False,account_access,general,normal,normal,start_account_recovery,request_more_information,3,11,10,7.65e-06,"mismatch: category, action"
+C24,multilingual,3,False,account_access,general,normal,normal,start_account_recovery,request_more_information,3,11,10,7.65e-06,"mismatch: category, action"
+C24,multilingual,4,False,account_access,general,normal,normal,start_account_recovery,request_more_information,3,11,10,7.65e-06,"mismatch: category, action"
+C24,multilingual,5,False,account_access,general,normal,normal,start_account_recovery,request_more_information,3,11,10,7.65e-06,"mismatch: category, action"
+C25,multilingual,1,False,billing,general,normal,normal,route_billing,request_more_information,3,7,10,7.049999999999999e-06,"mismatch: category, action"
+C25,multilingual,2,False,billing,general,normal,normal,route_billing,request_more_information,3,7,10,7.049999999999999e-06,"mismatch: category, action"
+C25,multilingual,3,False,billing,general,normal,normal,route_billing,request_more_information,3,7,10,7.049999999999999e-06,"mismatch: category, action"
+C25,multilingual,4,False,billing,general,normal,normal,route_billing,request_more_information,3,7,10,7.049999999999999e-06,"mismatch: category, action"
+C25,multilingual,5,False,billing,general,normal,normal,route_billing,request_more_information,3,7,10,7.049999999999999e-06,"mismatch: category, action"
