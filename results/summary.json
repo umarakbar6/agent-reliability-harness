@@ -1,0 +1,20 @@
+{
+  "case_count": 25,
+  "repeats_per_case": 5,
+  "total_runs": 125,
+  "successful_runs": 100,
+  "failed_runs": 25,
+  "success_rate_percent": 80.0,
+  "average_steps": 3,
+  "average_input_tokens": 10,
+  "average_output_tokens": 9.08,
+  "total_estimated_cost_usd": 0.0008685,
+  "cost_per_successful_run_usd": 8.69e-06,
+  "consistent_cases": 25,
+  "consistency_rate_percent": 100.0,
+  "failures_by_group": {
+    "negation": 5,
+    "typo": 10,
+    "multilingual": 10
+  }
+}
